@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function NotReady() {
 	return (
 		<>
-			<section className="container center p-md">
+			<section className="container text-center p-md">
 				<h1>This Component is still under development</h1>
 
 				<Image

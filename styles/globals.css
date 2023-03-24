@@ -1,19 +1,29 @@
+:root {
+	--primary: #d81b60;
+}
+
 * {
 	box-sizing: 0;
 	margin: 0;
 	padding: 0;
 }
 
-:root {
-	--primary: #d81b60;
+.active {
+	text-decoration: underline;
 }
-
 .block {
 	display: block;
 }
 
-.center {
+.text-center {
 	text-align: center;
+}
+
+.center {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .p-lg {
