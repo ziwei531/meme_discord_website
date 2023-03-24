@@ -1,0 +1,25 @@
+* {
+	box-sizing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primary: #d81b60;
+}
+
+.block {
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.p-lg {
+	padding: 2rem;
+}
+
+.p-md {
+	padding: 1rem;
+}
