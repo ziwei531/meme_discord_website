@@ -22,6 +22,14 @@ export default function Navbar() {
 					</li>
 					<li>
 						<Link
+							className={router.pathname == "/rants" ? "active" : ""}
+							href="/rants"
+						>
+							Rants
+						</Link>
+					</li>
+					<li>
+						<Link
 							className={router.pathname == "/about" ? "active" : ""}
 							href="/about"
 						>
